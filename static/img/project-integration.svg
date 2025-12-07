@@ -1,0 +1,102 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="300" y="30" font-family="Arial" font-size="20" text-anchor="middle" fill="#25c2a0">Robot System Integration</text>
+
+  <!-- Central integration hub -->
+  <circle cx="300" cy="200" r="50" fill="#e0f2f1" stroke="#00695c" stroke-width="3"/>
+  <text x="300" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="#00695c">Message</text>
+  <text x="300" y="210" font-family="Arial" font-size="12" text-anchor="middle" fill="#00695c">Bus</text>
+  <text x="300" y="225" font-family="Arial" font-size="10" text-anchor="middle" fill="#00695c">Integration</text>
+
+  <!-- Robot components around the hub -->
+  <!-- Perception component -->
+  <rect x="150" y="80" width="100" height="50" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="200" y="105" font-family="Arial" font-size="10" text-anchor="middle" fill="#1976d2">Perception</text>
+  <text x="200" y="120" font-family="Arial" font-size="8" text-anchor="middle" fill="#666">Sensors</text>
+
+  <!-- Planning component -->
+  <rect x="350" y="80" width="100" height="50" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="5"/>
+  <text x="400" y="105" font-family="Arial" font-size="10" text-anchor="middle" fill="#7b1fa2">Planning</text>
+  <text x="400" y="120" font-family="Arial" font-size="8" text-anchor="middle" fill="#666">Motion</text>
+
+  <!-- Control component -->
+  <rect x="100" y="200" width="100" height="50" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="150" y="225" font-family="Arial" font-size="10" text-anchor="middle" fill="#388e3c">Control</text>
+  <text x="150" y="240" font-family="Arial" font-size="8" text-anchor="middle" fill="#666">Actuation</text>
+
+  <!-- Learning component -->
+  <rect x="400" y="200" width="100" height="50" fill="#fff3e0" stroke="#e65100" stroke-width="2" rx="5"/>
+  <text x="450" y="225" font-family="Arial" font-size="10" text-anchor="middle" fill="#e65100">Learning</text>
+  <text x="450" y="240" font-family="Arial" font-size="8" text-anchor="middle" fill="#666">Adaptation</text>
+
+  <!-- HRI component -->
+  <rect x="150" y="300" width="100" height="50" fill="#c5cae9" stroke="#303f9f" stroke-width="2" rx="5"/>
+  <text x="200" y="325" font-family="Arial" font-size="10" text-anchor="middle" fill="#303f9f">HRI</text>
+  <text x="200" y="340" font-family="Arial" font-size="8" text-anchor="middle" fill="#666">Interaction</text>
+
+  <!-- Safety component -->
+  <rect x="350" y="300" width="100" height="50" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" rx="5"/>
+  <text x="400" y="325" font-family="Arial" font-size="10" text-anchor="middle" fill="#d32f2f">Safety</text>
+  <text x="400" y="340" font-family="Arial" font-size="8" text-anchor="middle" fill="#666">Monitoring</text>
+
+  <!-- Arrows connecting components to integration hub -->
+  <line x1="200" y1="130" x2="250" y2="170" stroke="#1976d2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="130" x2="350" y2="170" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="200" y1="200" x2="250" y2="200" stroke="#388e3c" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="200" x2="350" y2="200" stroke="#e65100" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="200" y1="300" x2="250" y2="230" stroke="#303f9f" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="300" x2="350" y2="230" stroke="#d32f2f" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Return arrows (responses) -->
+  <line x1="250" y1="170" x2="200" y2="130" stroke="#1976d2" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+  <line x1="350" y1="170" x2="400" y2="130" stroke="#7b1fa2" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+  <line x1="250" y1="200" x2="200" y2="200" stroke="#388e3c" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+  <line x1="350" y1="200" x2="400" y2="200" stroke="#e65100" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+  <line x1="250" y1="230" x2="200" y2="300" stroke="#303f9f" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+  <line x1="350" y1="230" x2="400" y2="300" stroke="#d32f2f" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+
+  <!-- Integration process -->
+  <rect x="200" y="50" width="200" height="25" fill="#e0f7fa" stroke="#00838f" stroke-width="2" rx="5"/>
+  <text x="300" y="68" font-family="Arial" font-size="10" text-anchor="middle" fill="#00838f">System Integration Process</text>
+
+  <!-- Robot representation -->
+  <circle cx="520" cy="150" r="25" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/> <!-- Head -->
+  <rect x="510" y="175" width="20" height="50" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/> <!-- Body -->
+  <line x1="505" y1="185" x2="490" y2="195" stroke="#388e3c" stroke-width="3"/> <!-- Left arm -->
+  <line x1="535" y1="185" x2="550" y2="195" stroke="#388e3c" stroke-width="3"/> <!-- Right arm -->
+
+  <!-- Integration levels -->
+  <rect x="50" y="360" width="80" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="1" rx="3"/>
+  <text x="90" y="378" font-family="Arial" font-size="9" text-anchor="middle" fill="#1976d2">Component</text>
+
+  <rect x="140" y="360" width="80" height="25" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1" rx="3"/>
+  <text x="180" y="378" font-family="Arial" font-size="9" text-anchor="middle" fill="#7b1fa2">Module</text>
+
+  <rect x="230" y="360" width="80" height="25" fill="#e8f5e9" stroke="#388e3c" stroke-width="1" rx="3"/>
+  <text x="270" y="378" font-family="Arial" font-size="9" text-anchor="middle" fill="#388e3c">System</text>
+
+  <rect x="320" y="360" width="80" height="25" fill="#fff3e0" stroke="#e65100" stroke-width="1" rx="3"/>
+  <text x="360" y="378" font-family="Arial" font-size="9" text-anchor="middle" fill="#e65100">Deployment</text>
+
+  <rect x="410" y="360" width="80" height="25" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1" rx="3"/>
+  <text x="450" y="378" font-family="Arial" font-size="9" text-anchor="middle" fill="#d32f2f">Validation</text>
+
+  <!-- Labels -->
+  <text x="300" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Component Integration Architecture</text>
+
+  <!-- Legend -->
+  <rect x="20" y="320" width="120" height="30" fill="white" stroke="#ccc" stroke-width="1" rx="5"/>
+  <text x="80" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#212121">Legend</text>
+  <circle cx="30" cy="345" r="5" fill="#e0f2f1" stroke="#00695c" stroke-width="1"/>
+  <text x="40" y="349" font-family="Arial" font-size="10" text-anchor="start" fill="#212121">Message Bus</text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+  </defs>
+</svg>
