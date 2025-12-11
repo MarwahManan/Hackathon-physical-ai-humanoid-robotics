@@ -1,19 +1,29 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+physical-ai:
+  label: Physical AI
+  permalink: /physical-ai
+  description: Blog posts about Physical AI - artificial intelligence systems that interact with the physical world
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+humanoid-robotics:
+  label: Humanoid Robotics
+  permalink: /humanoid-robotics
+  description: Blog posts about humanoid robots with human-like characteristics and capabilities
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+artificial-intelligence:
+  label: Artificial Intelligence
+  permalink: /artificial-intelligence
+  description: Blog posts about AI and machine learning in robotics
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+simulation:
+  label: Simulation
+  permalink: /simulation
+  description: Blog posts about simulation environments for robotics and AI
+
+robotics-history:
+  label: Robotics History
+  permalink: /robotics-history
+  description: Blog posts about the evolution and history of robotics
+
+introduction:
+  label: Introduction
+  permalink: /introduction
+  description: Introductory blog posts about Physical AI and Humanoid Robotics

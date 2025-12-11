@@ -1,29 +1,25 @@
 ---
 slug: welcome
-title: Welcome
+title: Welcome to Our Physical AI & Humanoid Robotics Blog
 authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+tags: [physical-ai, humanoid-robotics, introduction]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
-
-Here are a few tips you might find useful.
+Welcome to our specialized blog focused on the fascinating intersection of Physical AI and Humanoid Robotics! This space is dedicated to exploring the latest developments, research breakthroughs, and practical applications in the field of embodied artificial intelligence.
 
 <!-- truncate -->
 
-Simply add Markdown files (or folders) to the `blog` directory.
+![Humanoid Robotics Concept](/img/humanoid-anatomy.svg)
 
-Regular blog authors can be added to `authors.yml`.
+Our blog covers a wide range of topics related to Physical AI and Humanoid Robotics:
 
-The blog post date can be extracted from filenames, such as:
+- **Embodied Intelligence**: How AI systems can learn and interact with the physical world
+- **Humanoid Design**: The mechanics and engineering behind human-like robots
+- **Simulation & Training**: Advanced simulation environments for robot learning
+- **Real-World Applications**: How humanoid robots are being deployed in various industries
+- **Ethics & Safety**: Important considerations as robots become more integrated into society
+- **Future Trends**: Where the field is heading and what to expect next
 
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
+We'll be sharing insights from cutting-edge research, practical tutorials, industry updates, and in-depth analyses of the technologies that are shaping the future of human-robot interaction. Whether you're a researcher, engineer, student, or simply curious about this rapidly evolving field, we hope you'll find valuable content here.
 
-A blog post folder can be convenient to co-locate blog post images:
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+Stay tuned for regular updates and feel free to engage with us by sharing your thoughts and questions in the comments section of each post.

@@ -4,32 +4,58 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+    title: (
+      <a href="/docs/modules" className={styles.modulesButton}>
+        Modules
+      </a>
     ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Explore specialized modules covering critical technologies in Physical AI:
+        ROS 2, Digital Twins, AI Robot Brains, and Vision-Language-Action systems.
+      </>
+    ),
+  },
+  {
+    title: (
+      <a href="/docs/physical-ai-humanoid-robotics/chapter-1/lesson-1-1-foundations-of-physical-ai" className={styles.chaptersButton}>
+        Chapters
+      </a>
+    ),
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Comprehensive curriculum organized into 4 chapters covering all aspects
+        of Physical AI and Humanoid Robotics, from foundations to advanced topics.
+      </>
+    ),
+  },
+  {
+    title: (
+      <a href="/docs/research-articles" className={styles.researchButton}>
+        Research
+      </a>
+    ),
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Key research articles and findings in Physical AI and Humanoid Robotics,
+        covering breakthrough research and ongoing challenges in embodied AI systems.
+      </>
+    ),
+  },
+  {
+    title: (
+      <a href="/blog" className={styles.blogsButton}>
+        Blogs
+      </a>
+    ),
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Insights and articles on the evolution of humanoid robotics, industry trends,
+        and expert perspectives on the future of Physical AI.
       </>
     ),
   },

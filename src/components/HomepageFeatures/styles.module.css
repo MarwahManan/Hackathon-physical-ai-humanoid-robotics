@@ -9,3 +9,67 @@
   height: 200px;
   width: 200px;
 }
+
+.modulesButton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #25c2a0;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.modulesButton:hover {
+  background-color: #1a8870;
+  text-decoration: none;
+}
+
+.chaptersButton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3595d3;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.chaptersButton:hover {
+  background-color: #2a75a9;
+  text-decoration: none;
+}
+
+.researchButton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #d1356a;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.researchButton:hover {
+  background-color: #a92a53;
+  text-decoration: none;
+}
+
+.blogsButton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #8a4bde;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.blogsButton:hover {
+  background-color: #6d3ca8;
+  text-decoration: none;
+}
