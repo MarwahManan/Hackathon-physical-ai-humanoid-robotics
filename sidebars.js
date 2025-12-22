@@ -21,6 +21,7 @@ const sidebars = {
       type: 'category',
       label: 'Physical AI & Humanoid Robotics',
       items: [
+        'intro', // Introduction page
         'research-articles', // Research articles as the first item under the category
         {
           type: 'category',

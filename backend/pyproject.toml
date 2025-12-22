@@ -1,0 +1,21 @@
+[project]
+name = "book-embeddings-pipeline"
+version = "0.1.0"
+description = "Pipeline to crawl Physical AI & Humanoid Robotics textbook, generate embeddings, and store in Qdrant"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+    "cohere>=4.5.3",
+    "qdrant-client>=1.8.0",
+    "lxml>=4.9.3",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
