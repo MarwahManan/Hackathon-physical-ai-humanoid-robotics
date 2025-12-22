@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+book_embeddings_pipeline.egg-info/PKG-INFO
+book_embeddings_pipeline.egg-info/SOURCES.txt
+book_embeddings_pipeline.egg-info/dependency_links.txt
+book_embeddings_pipeline.egg-info/requires.txt
+book_embeddings_pipeline.egg-info/top_level.txt
+utils/chunker.py
+utils/embedder.py
+utils/logger.py
+utils/qdrant_storage.py
+utils/text_extractor.py
+utils/url_manager.py
+utils/validator.py

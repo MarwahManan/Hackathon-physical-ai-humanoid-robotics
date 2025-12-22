@@ -1,0 +1,202 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Custom theme colors for Physical AI & Humanoid Robotics */
+:root {
+  /* Primary colors - Robotics/AI themed */
+  --ifm-color-primary: #1a73e8; /* Google blue for tech feel */
+  --ifm-color-primary-dark: #1557b0;
+  --ifm-color-primary-darker: #134da1;
+  --ifm-color-primary-darkest: #0f3d82;
+  --ifm-color-primary-light: #4285f4;
+  --ifm-color-primary-lighter: #5a95f5;
+  --ifm-color-primary-lightest: #84afe9;
+
+  /* Secondary colors */
+  --ifm-color-secondary: #34a853;
+  --ifm-color-secondary-dark: #2a8c44;
+  --ifm-color-secondary-darker: #267d3e;
+  --ifm-color-secondary-darkest: #1e6331;
+  --ifm-color-secondary-light: #4db663;
+  --ifm-color-secondary-lighter: #66c277;
+  --ifm-color-secondary-lightest: #8fd999;
+
+  /* Accent colors */
+  --ifm-color-accent: #fbbc04;
+  --ifm-color-accent-dark: #d59e03;
+  --ifm-color-accent-darker: #c28f03;
+  --ifm-color-accent-darkest: #9e7402;
+  --ifm-color-accent-light: #fcc92d;
+  --ifm-color-accent-lighter: #fdd654;
+  --ifm-color-accent-lightest: #fde38c;
+
+  /* Additional theme variables */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(26, 115, 232, 0.1);
+  --ifm-navbar-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --ifm-footer-background-color: var(--ifm-color-emphasis-100);
+  --ifm-card-background-color: #ffffff;
+  --ifm-card-border-color: var(--ifm-color-emphasis-200);
+}
+
+/* Dark mode theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #4285f4;
+  --ifm-color-primary-dark: #1557b0;
+  --ifm-color-primary-darker: #134da1;
+  --ifm-color-primary-darkest: #0f3d82;
+  --ifm-color-primary-light: #5a95f5;
+  --ifm-color-primary-lighter: #66a0f6;
+  --ifm-color-primary-lightest: #84afe9;
+
+  --ifm-color-secondary: #34a853;
+  --ifm-color-secondary-dark: #2a8c44;
+  --ifm-color-secondary-darker: #267d3e;
+  --ifm-color-secondary-darkest: #1e6331;
+  --ifm-color-secondary-light: #4db663;
+  --ifm-color-secondary-lighter: #66c277;
+  --ifm-color-secondary-lightest: #8fd999;
+
+  --ifm-color-accent: #fbbc04;
+  --ifm-color-accent-dark: #d59e03;
+  --ifm-color-accent-darker: #c28f03;
+  --ifm-color-accent-darkest: #9e7402;
+  --ifm-color-accent-light: #fcc92d;
+  --ifm-color-accent-lighter: #fdd654;
+  --ifm-color-accent-lightest: #fde38c;
+
+  --docusaurus-highlighted-code-line-bg: rgba(66, 133, 244, 0.2);
+  --ifm-card-background-color: #1e1e1e;
+  --ifm-card-border-color: var(--ifm-color-emphasis-700);
+}
+
+
+/* Custom styles for better UI */
+.hero--primary {
+  background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+  color: white;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero__subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-secondary);
+  border-color: var(--ifm-color-secondary);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-secondary-dark);
+  border-color: var(--ifm-color-secondary-dark);
+}
+
+/* Card styling */
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--ifm-card-border-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Sidebar improvements */
+.menu {
+  font-size: 0.9rem;
+}
+
+.menu__link {
+  border-radius: 6px;
+  margin: 2px 0;
+}
+
+.menu__link--active {
+  background-color: rgba(26, 115, 232, 0.1);
+  font-weight: 600;
+}
+
+/* Code block improvements */
+.prism-code {
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+/* Table styling */
+.markdown table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.markdown table th {
+  background-color: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+}
+
+/* Better typography */
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  font-weight: 600;
+}
+
+/* Navigation improvements */
+.navbar {
+  box-shadow: var(--ifm-navbar-shadow);
+}
+
+/* Footer improvements */
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Better spacing */
+.padding-top--md {
+  padding-top: 2rem !important;
+}
+
+.padding-bottom--md {
+  padding-bottom: 2rem !important;
+}
+
+/* Custom feature section */
+.features {
+  padding: 4rem 0;
+  background-color: var(--ifm-color-emphasis-0);
+}
+
+/* Custom button styling */
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Improved code highlighting */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}

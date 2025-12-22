@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: book-embeddings-pipeline
+Version: 0.1.0
+Summary: Pipeline to crawl Physical AI & Humanoid Robotics textbook, generate embeddings, and store in Qdrant
+Author-email: Your Name <your.email@example.com>
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.31.0
+Requires-Dist: beautifulsoup4>=4.12.2
+Requires-Dist: cohere>=4.5.3
+Requires-Dist: qdrant-client>=1.8.0
+Requires-Dist: lxml>=4.9.3
+Requires-Dist: python-dotenv>=1.0.0
